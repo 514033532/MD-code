@@ -1,6 +1,6 @@
 
 
-
+seed=42,or 45
 
 gmx pdb2gmx -f protein.pdb -o protein.gro -p protein.top -ignh -ter
 gmx editconf -f protein.gro -o protein-PBC.gro -bt dodecahedron -d 1.2
